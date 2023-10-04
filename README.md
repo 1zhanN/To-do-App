@@ -12,7 +12,7 @@ A minimalistic To-Do List app built with HTML, CSS, and JavaScript, featuring br
 
 ## Demo
 
-[Live Demo](https://your-demo-url.com)
+[Live Demo](https://1zhann.github.io/To-do-App/)
 
 ## Usage
 
