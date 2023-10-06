@@ -46,9 +46,14 @@ listContainer.addEventListener("click", function(e){
         // Add an event listener to save changes when the Enter key is pressed
         inputField.addEventListener("keyup", function(event) {
             if (event.key === "Enter") {
-                const updatedTaskText = inputField.value;
-                li.innerHTML = updatedTaskText + ' <span class="cross-button">\u00d7</span> <span class="edit-button">\u270E</span>';
-                saveData();
+                if(inputField.value == ''){
+                    alert("You must enter something!")
+                }
+                else{
+                    const updatedTaskText = inputField.value;
+                    li.innerHTML = updatedTaskText + ' <span class="cross-button">\u00d7</span> <span class="edit-button">\u270E</span>';
+                    saveData();
+                }
             }
         });
 
