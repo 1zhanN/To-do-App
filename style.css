@@ -4,9 +4,7 @@
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     box-sizing: border-box;
 }
-/* div, h2{
-    border: 2px solid #dc2323;  
-} */
+
 .container{
     width: 100%;
     min-height: 100vh;
@@ -33,6 +31,7 @@
     align-items: center;
     margin-left: 10px;
 }
+
 .row{
     display: flex;
     align-items: center;
@@ -84,6 +83,7 @@ ul li::before{
     top: 12px;
     left: 8px;
 }
+
 ul li.checked{
     color: #555;
     text-decoration: line-through;
@@ -127,6 +127,8 @@ ul li.checked::before{
 .edit-button:hover{
     background: #edeef0;    
 }
+
 ul li input{
     color: white;
 }
+

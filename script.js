@@ -78,4 +78,3 @@ inputField.addEventListener("keyup", function(event) {
     addTask();
   }
 });
-
