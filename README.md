@@ -42,3 +42,6 @@ A minimalistic To-Do List app built with HTML, CSS, and JavaScript, featuring br
 ![Iteration 2 Screenshot](images/iteration2a.png)
 ![Iteration 2 Screenshot](images/iteration2b.png)
 
+# Courtesy
+<https://www.youtube.com/watch?v=G0jO8kUrg-I&ab_channel=GreatStack>
+
